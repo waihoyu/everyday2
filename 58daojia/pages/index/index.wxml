@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="userinfo">
+        <view class="userinfo-user">
+            <image class="userinfo-commonIcon userinfo-userName_icon" src="../../assets/images/1.png" mode="cover"></image>
+            <input type="text" class="userinfo-commonText  userinfo-userNameText" id="username" placeholder="请输入手机号" />
+        </view>
+        <view class="userinfo-code">
+            <image class="userinfo-commonIcon userinfo-code_icon" src="../../assets/images/2.png" mode="cover"></image>
+            <input type="text" class="userinfo-commonText userinfo-codeText" id="code" placeholder="请输入验证码" />
+        </view>
+    </view>
+    <view class="usermotto">
+        <text class="user-motto">{{motto}}</text>
+    </view>
+</view>

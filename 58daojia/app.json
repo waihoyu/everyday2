@@ -1,0 +1,12 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#2DC799",
+        "navigationBarTitleText": "58到家",
+        "navigationBarTextStyle": "white"
+    }
+}

@@ -15,10 +15,12 @@ Page({
         ],
         curIndex: 0,
         index: 0,
-        detail: []
+        detail: [],
+        toView: 'danfan',
     },
     switchCategory: function(e) {
         this.setData({
+            toView: e.currentTarget.dataset.id,
             curIndex: e.currentTarget.dataset.index ? e.currentTarget.dataset.index : 0,
         })
     },

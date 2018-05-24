@@ -1,5 +1,7 @@
 <template>
-<footer><h1>{{copyright}}</h1></footer>
+  <P>
+  <h1>{{copyright}</h1>
+  </P>
 </template>
 
 <script>
@@ -14,12 +16,12 @@ export default {
 </script>
 
 <style scoped>
-header{
-    background: lightgreen;
-    padding:10px;
+footer{
+    background: #222;
+    padding:6px;
 }
 h1{
-    color: #222;
+    color: lightgreen;
     text-align: center;
 }
 </style>

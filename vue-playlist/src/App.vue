@@ -9,13 +9,15 @@
 import HelloWorld from './components/HelloWorld'
 import Users from './components/Users'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     Users,
-    "app-header":Header
+    "app-header":Header,
+    "app-footer":Footer
   }
 }
 </script>

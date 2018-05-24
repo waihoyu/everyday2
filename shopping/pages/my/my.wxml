@@ -1,4 +1,40 @@
-<view class="container">
+<view class="container" id="container">
+    <view class="box-head weui-cells userInfor">
+        <navigator class="weui-cell weui-cell_access" href="javascript:;">
+            <view class="userImage weui-cell__hd">
+                <image src="../../assets/images2/icon_home_hl.png"></image>
+            </view>
+            <view class="weui-cell__bd">
+                <view class="userName"><text>大猫商城</text></view>
 
+            </view>
+            <view class="weui-cell__ft weui-cell__ft_in-access">
+                <view class="userNickname"><text></text></view>
+            </view>
+        </navigator>
+    </view>
+    <view class="weui-cells__title"></view>
+    <view class="box-head weui-cells userInfor">
+        <navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" href="javascript:;" url="./myAccount/myAccount">
+            <view class="userImage weui-cell__hd">
+                <image src="../../assets/images2/icon_home_hl.png"></image>
+            </view>
+            <view class="weui-cell__bd">
+                <view class="userName">严选钱包<text></text></view>
 
+            </view>
+            <view class="weui-cell__ft weui-cell__ft_in-access">
+            </view>
+        </navigator>
+        <navigator class="weui-cell weui-cell_access" href="javascript:;">
+            <view class="userImage weui-cell__hd">
+                <image src="../../assets/images2/icon_home_hl.png"></image>
+            </view>
+            <view class="weui-cell__bd">
+                <view class="userName"><text>优惠卡</text></view>
+            </view>
+            <view class="weui-cell__ft weui-cell__ft_in-access">
+            </view>
+        </navigator>
+    </view>
 </view>

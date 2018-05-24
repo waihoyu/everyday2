@@ -1,0 +1,18 @@
+<view class="container">
+    <view class="box page msg_success js_show">
+        <view class="weui-msg">
+            <view class="weui-msg__icon-area">
+                <i class="weui-icon-success weui-icon_msg">
+    
+                 </i>
+            </view>
+            <view class="weui-msg__text-area">
+                <text class="weui-msg__title"></text>
+            </view>
+            <view class="weui-msg__opr-area">
+                <button type="primary" class="weui-btn-area">推荐操作</button>
+                <button type="default" class="weui-btn-area">推荐操作</button>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,25 @@
+<view class="container">
+    <view class="perCard_hd weui-cells">
+        <view class="perCar-hd__select  weui-cell weui-cell_access">
+            <view class="weui-cell__bd">
+                <view class="defaultCard"><text>默认优惠卡</text></view>
+            </view>
+            <view class="weui-cell__ft weui-cell__ft_in-access">
+                <view class="cardPeriod"><text>2018年度</text></view>
+            </view>
+        </view>
+        <view class="raiodGroup">
+            <radio-group class="raiodGroup-button" bindchange="bindAmountChange">
+                <label class="weui-check__label" style="display: inline-block" wx:for-items="{{array}}">
+                    <radio  value="{{item.name}}" checked="{{item.checked}}" class="raiodGroup-button__item  weui-check"/>
+                    <view class=" check__money">
+                        <text> ￥{{item.value}}</text>
+                    </view>
+                </label>
+            </radio-group>
+        </view>
+    </view>
+    <view>
+        <button type="primary" class="weui-btn-area">充值</button>
+    </view>
+</view>

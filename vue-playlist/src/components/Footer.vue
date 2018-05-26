@@ -1,7 +1,5 @@
 <template>
-  <P>
-  <h1>{{copyright}</h1>
-  </P>
+  <P v-on:click="change">{{copyright}}</P>
 </template>
 
 <script>
@@ -11,6 +9,10 @@ export default {
     return {
       copyright: "copyright 2017"
     };
+  },methods:{
+    change:function(){
+      // this.
+    }
   }
 };
 </script>
@@ -20,7 +22,7 @@ footer{
     background: #222;
     padding:6px;
 }
-h1{
+p{
     color: lightgreen;
     text-align: center;
 }

@@ -1,13 +1,53 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-</view>
+<scroll-view class="container" scroll-y="true">
+    <view class="index_hd">
+        <view class="search" bindtap="gotoSearch">
+            <image src="../../assets/index/search.png"></image>
+            <span>    搜索商品,共9781款好物</span>
+        </view>
+        <scroll-view class="index_top" scroll-x="true">
+            <image src="../../assets/index/indexTop.png"></image>
+        </scroll-view>
+        <view class="index_bottom"></view>
+    </view>
+    <view class="index_hd">
+        <view class="search" bindtap="gotoSearch">
+            <image src="../../assets/index/search.png"></image>
+            <span>    搜索商品,共9781款好物</span>
+        </view>
+        <scroll-view class="index_top" scroll-x="true">
+            <image src="../../assets/index/indexTop.png"></image>
+        </scroll-view>
+        <view class="index_bottom"></view>
+    </view>
+    <view class="index_hd">
+        <view class="search" bindtap="gotoSearch">
+            <image src="../../assets/index/search.png"></image>
+            <span>    搜索商品,共9781款好物</span>
+        </view>
+        <scroll-view class="index_top" scroll-x="true">
+            <image src="../../assets/index/indexTop.png"></image>
+        </scroll-view>
+        <view class="index_bottom"></view>
+    </view>
+    <view class="index_hd">
+        <view class="search" bindtap="gotoSearch">
+            <image src="../../assets/index/search.png"></image>
+            <span>    搜索商品,共9781款好物</span>
+        </view>
+        <scroll-view class="index_top" scroll-x="true">
+            <image src="../../assets/index/indexTop.png"></image>
+        </scroll-view>
+        <view class="index_bottom"></view>
+    </view>
+    <view class="index_hd">
+        <view class="search" bindtap="gotoSearch">
+            <image src="../../assets/index/search.png"></image>
+            <span>    搜索商品,共9781款好物</span>
+        </view>
+        <scroll-view class="index_top" scroll-x="true">
+            <image src="../../assets/index/indexTop.png"></image>
+        </scroll-view>
+        <view class="index_bottom"></view>
+    </view>
+</scroll-view>

@@ -1,21 +1,78 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/*
+ * @Author: WaiHoYu 
+ * @Date: 2018-06-04 01:55:57 
+ * @Last Modified by:   WaiHoYu 
+ * @Last Modified time: 2018-06-04 01:55:571 
+ * @Description:  CSS 样式表   
+ */
+
+page {}
+
+.container {
+    position: relative;
+    background: blue;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.searchTop {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
-.usermotto {
-  margin-top: 200px;
+.search {
+    position: absolute;
+    background: white;
+    width: 90%;
+    height: 50rpx;
+    top: 20rpx;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    border-radius: 25rpx;
+    text-align: center;
+    line-height: 50rpx;
+    color: #9C9C9C;
+    font-size: 12pt;
+    letter-spacing: 2.5rpx;
+    z-index: 2;
+}
+
+.search image {
+    position: absolute;
+    width: 30rpx;
+    height: 30rpx;
+    /* background: red; */
+    top: 0;
+    left: -380rpx;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.search span {
+    position: relative;
+    left: 30rpx;
+}
+
+.index_top {
+    box-sizing: border-box;
+    width: 100%;
+    height: 400rpx;
+    /* border: 5rpx solid red; */
+    z-index: 1;
+}
+
+.index_top image {
+    width: 100%;
 }

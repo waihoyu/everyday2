@@ -1,16 +1,17 @@
 {
     "pages": [
+        "pages/index/index",
         "pages/record/record",
         "pages/my/my",
         "pages/category/category",
         "pages/cart/cart",
-        "pages/index/index",
         "pages/logs/logs",
         "pages/user/user",
         "pages/campus/campus",
         "pages/category/details/details",
         "pages/my/myAccount/myAccount",
-        "pages/my/PreferentialCard/PreferentialCard"
+        "pages/my/PreferentialCard/PreferentialCard",
+        "pages/search/search"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -31,20 +32,20 @@
             },
             {
                 "pagePath": "pages/category/category",
-                "iconPath": "./assets/images/22.png",
-                "selectedIconPath": "./assets/images/21.png",
+                "iconPath": "./assets/images/cat.png",
+                "selectedIconPath": "./assets/images/cat_select.png",
                 "text": "分类"
             },
             {
                 "pagePath": "pages/cart/cart",
-                "iconPath": "./assets/images/32.png",
-                "selectedIconPath": "./assets/images/31.png",
+                "iconPath": "./assets/images/cart_empty.png",
+                "selectedIconPath": "./assets/images/cart_full.png",
                 "text": "购物车"
             },
             {
                 "pagePath": "pages/my/my",
-                "iconPath": "./assets/images/42.png",
-                "selectedIconPath": "./assets/images/41.png",
+                "iconPath": "./assets/images/my_icon.png",
+                "selectedIconPath": "./assets/images/my_secletIcon.png",
                 "text": "我的"
             }
         ]
